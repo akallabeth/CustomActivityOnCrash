@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "cat.ereza.customactivityoncrash.sample"
         minSdkVersion 14
-        targetSdkVersion 27
-        versionCode 11
-        versionName "2.2.1-SNAPSHOT"
+        targetSdkVersion 29
+        versionCode 12
+        versionName "2.2.2-SNAPSHOT"
     }
     buildTypes {
         debug {
