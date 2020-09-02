@@ -1,15 +1,15 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.3"
     resourcePrefix 'customactivityoncrash_'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 12
-        versionName "2.3.1-SNAPSHOT"
+        versionName "2.4.0"
     }
 }
 
@@ -19,8 +19,8 @@ ext {
     PUBLISH_VERSION = android.defaultConfig.versionName
 }
 
-apply from: "publish-mavencentral.gradle"
+//apply from: "publish-mavencentral.gradle"
 
 dependencies {
-    api 'androidx.appcompat:appcompat:1.1.0'
+    api 'androidx.appcompat:appcompat:1.2.0'
 }
